@@ -10,7 +10,7 @@ public class dosnumeros {
 		
 		if (args.length<2){
 			correcto=false;
-			System.out.println("No debe haber menos de números");
+			System.out.println("No debe haber menos de dos números");
 		}
 		else if (args.length>2){
 			correcto=false;
@@ -20,7 +20,7 @@ public class dosnumeros {
 		else if(correcto==true){
 			num=Integer.parseInt(args[0]);
 			num2=Integer.parseInt(args[1]);
-			//SUMA
+			//OPERACIONES
 			System.out.println("La suma es "+Suma(num,num2));
 			System.out.println("La resta es "+Resta(num,num2));
 			System.out.println("La multiplicacion es "+Multiplicacion(num,num2));
