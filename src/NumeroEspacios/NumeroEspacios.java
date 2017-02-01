@@ -7,7 +7,7 @@ public class NumeroEspacios {
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
 		String cadena = "";
-		Boolean error = false;
+		
 
 		System.out.println("Introduce una frase: ");
 		cadena = teclado.nextLine();
